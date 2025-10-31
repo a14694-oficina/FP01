@@ -65,3 +65,4 @@ O projeto foi desenvolvido pela seguinte equipa:
 | :--- | :--- | :--- |
 | **Ana Costa** | Gestora de Projeto | `ana.html` |
 | **Rui Pereira** | Programador Frontend | `rui.html` |
+| **Sofia Marques** | Designer UI/UX | `sofia.html` |
