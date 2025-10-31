@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Prática 1</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6; /* espaçamento entre linhas */
+            background-color: white; 
+            color: auto;
+        }
+        .pagina {
+            display: grid;
+            grid-template-areas:
+            "header"
+            "main"
+            "footer";
+            grid-template-rows: auto 1fr auto;
+            min-height: 100vh;
+        }
+        header { 
+            grid-area: header; 
+            background-color: #007bff;
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 30px 50px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0d6efd;
+            color: white;
+            padding: 15px 20px;
+        }
+        header nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+        } 
+        .project-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 80px;
+            padding-top: 80px;
+        }
+
+        .project-box {
+            background-color: white;
+            border: 3px solid #1274ff;
+            border-radius: 25px;
+            padding: 50px;
+            width: 350px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            transition: transform 0.2s ease;
+        }
+
+        .project-box:hover {
+            transform: scale(1.03);
+        }
+
+        .project-box h3 {
+            color: #1274ff;
+            margin-top: 0;
+        }
+
+        .project-box {
+            min-height: 250px; 
+        }
+
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0d6efd;
+            color: white;
+            padding: 30px;
+            margin-top: 60px;
+        }
+
+    </style>
+    <header>
+            <h1>Projetos</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contacto.html">Contactos</a>
+        </nav>
+    </header>
+    <section id="projetos">
+        <div class="project-container">
+            <div class="project-box">
+                <h3>Plataforma de Gestão Interna</h3>
+                <p>Desenvolvemos uma plataforma intuitiva que permite às equipas gerir tarefas, partilhar ficheiros e comunicar em tempo real, tudo num só ambiente centralizado. O sistema também integra painéis de produtividade e relatórios automáticos.</p>
+        </div>
+
+            <div class="project-box">
+                <h3>Website Responsivo para E-commerce</h3>
+                <p>Criámos um website moderno e totalmente responsivo para uma loja online, com foco na experiência do utilizador em dispositivos móveis. O projeto incluiu integração com sistemas de pagamento, carrinho de compras e gestão de inventário.</p>
+        </div>
+
+            <div class="project-box">
+                <h3>Aplicação de Feedback de Clientes</h3>
+                <p>Desenvolvemos uma aplicação web que permite às empresas recolher e analisar feedback em tempo real através de formulários personalizados. A ferramenta inclui dashboards interativos com métricas de satisfação e relatórios exportáveis.</p>
+        </div>
+  </div>
+</section>
+        </main>
+    <footer>
+        <p>&copy; 2025 Equipa do Projeto</p>
+    </footer>
+</div>
+</head>
+<body>
+    
+</body>
+</html>

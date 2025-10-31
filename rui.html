@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha Prática 1</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            background-color: white; 
+        }
+
+        .pagina {
+            display: grid;
+            grid-template-areas:
+            "header"
+            "main"
+            "footer";
+            grid-template-rows: auto 1fr auto;
+            min-height: 100vh;
+        }
+        
+        header { 
+            grid-area: header; 
+            background-color: #007bff;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 30px;
+        }
+
+        header nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        } 
+        
+        .equipa {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 40px;
+            background: #f8f9fa;
+            text-align: center;
+        }
+
+        .membro img {
+            width: 250px;
+            border-radius: 10%;
+        }
+
+        .membro h3 {
+            margin-top: 10px;
+            color: black;
+        }
+
+        .section-title {
+            font-weight: 600;
+            color: #007bff;
+            text-transform: uppercase;
+            font-size: 13px;
+            margin-top: 20px;
+        }
+
+        .info-text {
+            font-size: 14px;
+            color: black;
+            line-height: 1.5;
+            margin: 5px 0 15px 0;
+        }
+
+        .list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .list li {
+            font-size: 14px;
+            color: black;
+            padding: 3px 0;
+        }
+
+        .bio {
+            font-style: italic;
+            color: black;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .contact {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .contact a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #0d6efd;
+            color: white;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Equipa de Projeto</h1>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="projetos.html">Projetos</a>
+            <a href="contacto.html">Contactos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="equipa">
+            <div class="membro">
+                <img src="images/rui.jpg" alt="Foto de Ana">
+                <h3>Rui Pereira</h3>
+                <p>Programador Frontend</p>
+
+                <div class="section-title">Experiência</div>
+                <p class="info-text">5+ anos em desenvolvimento frontend com foco em interfaces modernas e responsivas.</p>
+
+                <div class="section-title">Formação</div>
+                <p class="info-text">Licenciado em Engenharia Informática pela Universidade de Aveiro.</p>
+
+                <div class="section-title">Competências</div>
+                <ul class="list">
+                    <li>HTML5, CSS3, JavaScript (ES6+)</li>
+                    <li>React, Next.js, Tailwind CSS</li>
+                    <li>Integração com APIs REST e GraphQL</li>
+                    <li>Controlo de versão (Git/GitHub)</li>
+                    <li>Testes unitários (Jest, React Testing Library)</li>
+                    <li>UX/UI Design básico</li>
+                </ul>
+
+                <div class="section-title">Idiomas</div>
+                <ul class="list">
+                    <li>Português (nativo)</li>
+                    <li>Inglês (fluente)</li>
+                </ul>
+
+                <div class="section-title">Contactos</div>
+                <p class="contact">
+                    <a href="mailto:rui.pereira@email.com">rui.pereira@email.com</a><br>
+                </p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Equipa do Projeto</p>
+    </footer>
+</body>
+</html>
