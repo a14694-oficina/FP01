@@ -65,6 +65,77 @@ O projeto foi desenvolvido pela seguinte equipa:
 | :--- | :--- | :--- |
 | **Ana Costa** | Gestora de Projeto | `ana.html` |
 | **Rui Pereira** | Programador Frontend | `rui.html` |
+
+
+translated_content.txt
+# Practical Assignment 1: Project Team Website
+
+This repository contains the source code for a static website developed as part of a "Practical Assignment 1" (Ficha Prática 1). The website aims to present the **Project Team**, the developed **Projects**, and the team's **Contacts**.
+
+## Project Structure
+
+The project consists of a set of HTML files that represent the different pages of the website, using embedded CSS for styling.
+
+| File | Description | Main Content |
+| :--- | :--- | :--- |
+| `index.html` | Home Page | Presentation of the Project Team and links to individual profiles. |
+| `projetos.html` | Projects | List of three web/platform development projects. |
+| `contacto.html` | Contacts | Team contact information (address, email, phone) and a location map. |
+| `ana.html` | Ana Costa's Profile | Project Manager. Details on experience, education, and skills. |
+| `rui.html` | Rui Pereira's Profile | Frontend Developer. Details on experience, education, and skills. |
+| `sofia.html` | Sofia Marques' Profile | UI/UX Designer. Details on experience, education, and skills. |
+| `images/` (referenced) | Directory | Contains the profile images of the team members. |
+
+## Key Features
+
+The website offers the following features:
+
+1.  **Team Presentation:** A home page (`index.html`) listing the team members and their roles.
+2.  **Detailed Profiles:** Individual pages for each member (`ana.html`, `rui.html`, `sofia.html`) with information on:
+    *   Professional experience.
+    *   Academic background.
+    *   Technical skills (e.g., React, Figma, Scrum).
+    *   Individual contacts.
+3.  **Project Portfolio:** A dedicated section (`projetos.html`) describing three development projects:
+    *   Internal Management Platform.
+    *   Responsive Website for E-commerce.
+    *   Customer Feedback Application.
+4.  **Contact Information:** A contact page (`contacto.html`) with address, email, phone, and an embedded map.
+5.  **Responsive Design:** The CSS code suggests an adaptive layout, using `grid` and `flex` for a consistent experience on different devices.
+
+## How to View
+
+This is a static website that can be viewed directly in your browser.
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [Your repository URL]
+    cd [repository name]
+    ```
+2.  **Open in Browser:**
+    Open the `index.html` file in your preferred web browser.
+
+    ```bash
+    # Example on Linux/macOS
+    open index.html 
+    # Example on Windows
+    start index.html
+    ```
+
+## Technologies Used
+
+*   **HTML5:** Structure and content of the pages.
+*   **CSS3:** Styling and layout (including Grid and Flexbox for responsiveness).
+
+## Development Team
+
+The project was developed by the following team:
+
+| Name | Role | Profile File |
+| :--- | :--- | :--- |
+| **Ana Costa** | Project Manager | `ana.html` |
+| **Rui Pereira** | Frontend Developer | `rui.html` |
+| **Sofia Marques** | UI/UX Designer | `sofia.html` |
 | **Sofia Marques** | Designer UI/UX | `sofia.html` |
 
 
